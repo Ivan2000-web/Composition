@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.vansoft.composition"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.vansoft.composition"
