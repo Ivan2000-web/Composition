@@ -15,7 +15,7 @@
     <string name="game_sum">1</string>
     <string name="game_num1">5</string>
     <string name="game_num2">?</string>
-    <string name="game_answers_progress">Минимальных ответов %s (минимум %s)</string>
+    <string name="game_answers_progress">Правильных ответов %s (минимум %s)</string>
     <string name="game_btn1">1</string>
     <string name="game_btn2">2</string>
     <string name="game_btn3">3</string>
