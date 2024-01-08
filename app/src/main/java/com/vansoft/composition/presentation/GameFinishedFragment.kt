@@ -65,4 +65,5 @@ class GameFinishedFragment : Fragment() {
             }
         }
     }
+
 }
