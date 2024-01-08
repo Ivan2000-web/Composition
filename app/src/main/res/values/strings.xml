@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Composition</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_title">Состав числа</string>
+    <string name="tv_rule">Правила игры: перед вами будет три фигуры, две снизу и одна сверху. В двух из них будут числа.
+    Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре, для этого нужно вставить недостающее
+    число.</string>
+    <string name="button_understand">Понятно</string>
+    <string name="tv_level_title">Выберите уровень:</string>
+    <string name="button_level_test">Тестовый</string>
+    <string name="button_level_easy">Лёгкий</string>
+    <string name="button_level_normal">Средний</string>
+    <string name="button_level_hard">Тяжёлый</string>
+    <string name="game_timer">00:00</string>
+    <string name="game_sum">1</string>
+    <string name="game_num1">5</string>
+    <string name="game_num2">?</string>
+    <string name="game_answers_progress">Правильных ответов %s (минимум %s)</string>
+    <string name="game_btn1">1</string>
+    <string name="game_btn2">2</string>
+    <string name="game_btn3">3</string>
+    <string name="game_btn4">4</string>
+    <string name="game_btn5">5</string>
+    <string name="game_btn6">6</string>
+    <string name="need_answers">Необходимое количество правильных ответов: %s</string>
+    <string name="user_answers">Ваш счет: %s</string>
+    <string name="need_percents">Необходим процент правильных ответов: %s</string>
+    <string name="user_percents">Процент правильных ответов: %s</string>
 </resources>
