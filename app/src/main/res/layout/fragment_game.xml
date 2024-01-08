@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.GameFragment">
+    tools:context=".presentation.GameFragment"
+    android:background="@color/main">
 
     <TextView
         android:id="@+id/game_timer"
@@ -34,31 +35,31 @@
 
     <TextView
         android:id="@+id/game_num1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintDimensionRatio="1:1"
-        android:layout_marginStart="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/game_number"
+        android:background="@color/game_number"
         android:gravity="center"
         android:text="@string/game_num1"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/game_sum" />
 
     <TextView
         android:id="@+id/game_num2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintDimensionRatio="1:1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="50dp"
-        android:background="@drawable/game_number"
+        android:layout_marginEnd="70dp"
+        android:background="@color/game_number"
         android:gravity="center"
         android:text="@string/game_num2"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/game_sum" />
 
@@ -95,24 +96,24 @@
 
         <Button
             android:id="@+id/game_btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#cf3513"
             android:text="@string/game_btn1" />
 
         <Button
             android:id="@+id/game_btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#deae2a"
             android:text="@string/game_btn2" />
 
         <Button
             android:id="@+id/game_btn3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#1a59c7"
             android:text="@string/game_btn3" />
@@ -129,24 +130,24 @@
 
         <Button
             android:id="@+id/game_btn4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#25a89d"
             android:text="@string/game_btn4" />
 
         <Button
             android:id="@+id/game_btn5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#57a825"
             android:text="@string/game_btn5" />
 
         <Button
             android:id="@+id/game_btn6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:backgroundTint="#ba147d"
             android:text="@string/game_btn6" />

@@ -5,7 +5,7 @@
     <string name="tv_rule">Правила игры: перед вами будет три фигуры, две снизу и одна сверху. В двух из них будут числа.
     Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре, для этого нужно вставить недостающее
     число.</string>
-    <string name="button_understand">Понятно</string>
+    <string name="button_understand">Начать игру</string>
     <string name="tv_level_title">Выберите уровень:</string>
     <string name="button_level_test">Тестовый</string>
     <string name="button_level_easy">Лёгкий</string>
