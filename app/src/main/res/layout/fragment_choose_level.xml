@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation.ChooseLevelFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/main">
 
     <TextView
         android:id="@+id/tv_level_title"
@@ -29,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:backgroundTint="#c4c454"
+        android:backgroundTint="#3F51B5"
         android:text="@string/button_level_easy" />
     <Button
         android:id="@+id/button_level_normal"
