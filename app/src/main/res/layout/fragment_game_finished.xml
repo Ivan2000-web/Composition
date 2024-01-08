@@ -8,11 +8,10 @@
     tools:context=".presentation.GameFinishedFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/emojiResult"
         android:layout_width="144dp"
         android:layout_height="144dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/smile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +24,7 @@
         android:text="@string/need_answers"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/emojiResult" />
 
     <TextView
         android:id="@+id/user_answers"
