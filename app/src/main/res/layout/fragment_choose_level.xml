@@ -16,14 +16,14 @@
         android:textColor="#0E0E0E"
         android:textSize="24sp" />
 
-    <Button
+    <!--Button
         android:id="@+id/button_level_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:backgroundTint="#5f9e70"
         android:text="@string/button_level_test"
-        android:textColorLink="#D16A6A" />
+        android:textColorLink="#D16A6A" /-->
 
     <Button
         android:id="@+id/button_level_easy"
