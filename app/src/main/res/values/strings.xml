@@ -26,4 +26,5 @@
     <string name="user_answers">Ваш счет: %s</string>
     <string name="need_percents">Необходим процент правильных ответов: %s</string>
     <string name="user_percents">Процент правильных ответов: %s</string>
+    <string name="restart_button">Попробовать снова</string>
 </resources>
